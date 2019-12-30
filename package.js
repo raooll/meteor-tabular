@@ -1,9 +1,9 @@
 /* global Package, Npm */
 
 Package.describe({
-  name: 'maxko87:tabular-nocounts',
+  name: 'zincdev:tabular',
   summary: 'Datatables for large or small datasets in Meteor',
-  version: '1.6.1_2',
+  version: '0.0.3',
   git: 'https://github.com/maxko87/meteor-tabular.git'
 });
 

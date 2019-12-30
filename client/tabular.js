@@ -133,6 +133,9 @@ var tabularOnRendered = function () {
 
     if (!data) {return;}
 
+    // if we don't have data OR the selector didn't actually change return out
+    if (!data || (data.selector && template.tabular.selector === data.selector)) return;
+
     // We get the current TabularTable instance, and cache it on the
     // template instance for access elsewhere
     var tabularTable = template.tabular.tableDef = data.table;
